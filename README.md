@@ -3,6 +3,9 @@
 ## Project Overview
 This is a text-based game created in C++ where the player navigates a randomly generated grid filled with obstacles to reach the target destination. 
 
+## Objective
+The player's goal is to move from the top-left corner (`P`) to the bottom-right corner (`T`), avoiding randomly placed obstacles (`#`). Movement is done using the keyboard (`W/A/S/D`). The player cannot move through walls and must find a valid path to the target
+
 ## Main Game Features
 * **Procedural Maze Generation:** Each play session features a newly created grid with dynamically placed obstacles, offering fresh challenges.
 * **Intuitive Player Control:** Navigating the map is straightforward with W/A/S/D inputs, complemented by robust checks for boundary and wall collisions.
@@ -19,6 +22,18 @@ This is a text-based game created in C++ where the player navigates a randomly g
 - **Random Number Logic** – For procedural obstacle generation.
 - **Object-Oriented Design** – Encapsulation via a custom `GameObject` class.
 - **CLI Interaction** – Simple console-based gameplay with real-time feedback.
+
+## Example Gameplay
+. . . . . . . . . .
+P . # . . # . . . .
+. . # . # . . . . .
+. . # . . . # . . .
+. . . . . . . # . .
+. # . . . # . . . .
+. . . # . . . . . .
+. . # . # . . . . .
+. . . . . . . . # .
+. . . . . . . . . T
 
 ## How to Run
 1.  **Clone the repository:**
