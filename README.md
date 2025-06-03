@@ -24,6 +24,7 @@ The player's goal is to move from the top-left corner (`P`) to the bottom-right 
 - **CLI Interaction** – Simple console-based gameplay with real-time feedback.
 
 ## Example Gameplay
+```
 . . . . . . . . . .
 P . # . . # . . . .
 . . # . # . . . . .
@@ -34,6 +35,7 @@ P . # . . # . . . .
 . . # . # . . . . .
 . . . . . . . . # .
 . . . . . . . . . T
+```
 
 ## How to Run
 1.  **Clone the repository:**
