@@ -38,17 +38,7 @@ P . # . . # . . . .
 ## How to Run
 1.  **Clone the repository:**
     ```bash
-        git clone [https://github.com/rchowd9/Grid-Navigation-Game.git](https://github.com/rchowd9/Grid-Navigation-Game.git)
-    cd Grid-Navigation-Game
-    ```
-2.  **Compile the game:**
-    ```bash
-    g++ -o maze_game main.cpp textgames.cpp -std=c++11
-    ```
-3.  **Execute:**
-    ```bash
-    ./maze_game
-    ```
+    git clone [https://github.com/rchowd9/Grid-Navigation-Game.git](https://github.com/rchowd9/Grid-Navigation-Game.git)
     cd Grid-Navigation-Game
     ```
 2.  **Compile the game:**
