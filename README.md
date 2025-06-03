@@ -38,10 +38,11 @@ This is a text-based game created in C++ where the player navigates a randomly g
 * `textgames.cpp`: This file contains the **complete implementation of all member functions for the `GameObject` class**. It encapsulates the core game logic, including methods for displaying the game grid, randomly placing obstacles, processing player movements, and handling various game conditions such as collisions and goal detection.
 
 ## Technologies Used
-* **C++**
-* **Data Structures:** 2D `std::vector` (for the game grid)
-* **Algorithms:** Random placement algorithm, player movement logic, collision detection.
-* **Object-Oriented Design (OOP):** Structured with **OOP principles** to encapsulate game state and core interactions within a modular class design.
+* **C++** - Main programming language
+* **STL Vectors** – Used to implement a 2D grid structure.
+* **Random Number Logic** – For procedural obstacle generation.
+* **Object-Oriented Design (OOP):** - Encapsulation with a custom `GameObject` class
+* **CLI Interaction** – Simple console-based gameplay with real-time feedback
 
 ## How to Run
 1.  **Clone the repository:**
